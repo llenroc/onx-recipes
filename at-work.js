@@ -16,7 +16,7 @@ var region = device.regions.createRegion({
     latitude: parseFloat(location.latitude, 10),
     longitude: parseFloat(location.longitude, 10),
     name: location.name,
-    radius: 1000
+    radius: 500
 });
 
 // arrived at work
