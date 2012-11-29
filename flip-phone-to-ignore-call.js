@@ -17,7 +17,7 @@ var ignoreCall = function() {
         console.log('reverting ringer mode after flip ignored call to ' + prevMode);
         device.audio.ringerMode = prevMode;
     });
-}
+};
 
 device.telephony.on('incomingCall', function() {
 	device.gestures.on('flipDown', function() {
